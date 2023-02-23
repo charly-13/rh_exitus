@@ -1,11 +1,10 @@
-<?php
-class HomeModel extends Query{
-    public function __construct() {
-        parent::__construct();
-    }
-    public function getDatos()
-    {
+<?php 
 
-    }
-}
-?>
+	class HomeModel extends Mysql
+	{
+		public function __construct()
+		{
+			parent::__construct();
+		}	
+	}
+ ?>
